@@ -1,10 +1,11 @@
 import sys
 
-def addition(num1, num2):
+def add(num1, num2):
     add = num1 + num2
     return add
 
 def sub(num1, num2):
+
     s = num1 - num2
     return s
 
@@ -16,10 +17,19 @@ def div(num1, num2):
     d = num1 / num2
     return d
 
-num1 = int(sys.argv[1]):
-operation = sys.argv[2]:
-num2 = int(sys.argv[3]):
+num1 = float(sys.argv[1])
+operation = sys.argv[2]
+num2 = float(sys.argv[3])
 
 if operation == "add":
-    output = add(num1 num2)
-    print(output)
+    output = addition(num1, num2)
+elif operation == "sub":
+    output = sub(num1, num2)
+elif operation == "mul":
+    output = mul(num1, num2)
+elif operation == "div":
+    output = div(num1, num2)
+else:
+    output = "Invalid operation"
+
+print(output)    
