@@ -1,0 +1,48 @@
+Airthmatic operator = '+' '-' * / etc
+---------------------------------------------------
+Assignment operator = a = 5 here = is assignment operator
+
+eg for addition assignment operator
+simple way
+a = 1
+a += 2
+print(a)
+3
+with addition assignment operator
+a = 1
+a = a + 2
+print(a)
+3
+simple subtraction
+a = 3
+a = a - 2
+print(a)
+1
+with subtraction assignment operator
+a = 3
+a -= 2
+print(a)
+1
+---------------------------------------------------------
+Identity operator: to verify to variable are same or not
+a = 2
+b = 5
+c = 5
+a is b
+False
+b is c
+True
+b is not c
+False
+------------------------------------------------
+Logical Operator:- only work on boolean datatype
+
+------------------------
+Relational operator
+> 
+<
+>=
+<=
+==
+
+
