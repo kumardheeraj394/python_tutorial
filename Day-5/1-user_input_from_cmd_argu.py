@@ -21,13 +21,13 @@ num1 = float(sys.argv[1])
 operation = sys.argv[2]
 num2 = float(sys.argv[3])
 
-if operation == "add":
-    output = addition(num1, num2)
-elif operation == "sub":
+if operation == "+":
+    output = add(num1, num2)
+elif operation == "-":
     output = sub(num1, num2)
-elif operation == "mul":
+elif operation == "*":
     output = mul(num1, num2)
-elif operation == "div":
+elif operation == "/":
     output = div(num1, num2)
 else:
     output = "Invalid operation"
