@@ -1,0 +1,5 @@
+list: list are mutable, dynamic memory allocation list  is created in []
+tuples: tuples are immutable, once its created i will not resized, means we cannot add or remove elements.better memory allocation, created in ()
+example: n below list  a,b,c,d element , so by using list we can add more elemenet or remove some.
+list =["a", "b", "c", "d"]
+print(list)
