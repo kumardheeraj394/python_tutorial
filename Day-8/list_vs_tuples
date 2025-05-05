@@ -3,3 +3,24 @@ tuples: tuples are immutable, once its created i will not resized, means we cann
 example: n below list  a,b,c,d element , so by using list we can add more elemenet or remove some.
 list =["a", "b", "c", "d"]
 print(list)
+
+what is list.
+what is tuples?
+when to use list?
+ans: when we have to add or remove something after creation.
+
+when to use tuple?
+ans: when not to add or remove after creation.
+
+how to create list. with []
+how to create tuples ()
+
+how to append list?
+with    variable.append("name_to_append")
+
+how to remove list
+with     variable.remove("name_to_remove")
+
+how to print single value from list.
+ans: using index, first value has o index ...
+
