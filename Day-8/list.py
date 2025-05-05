@@ -29,10 +29,10 @@ print()
 # After append
 print("=== Length After Append ===")
 list = ["a", "b", "c", "d", "f"]
-list.append("e")
-print("List after append:", list)
-print("Length after append:", len(list))
-print()
+list.append("e") #
+print("List after append:", list) #This prints the updated list
+print("Length after append:", len(list)) #calculates and returns the number of items in the list.
+print() #This simply prints a blank line for better readability of the output.
 
 # After remove
 print("=== Length After Remove ===")
