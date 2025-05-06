@@ -1,0 +1,3 @@
+#syntex 
+#while condition:
+  #block
