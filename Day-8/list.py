@@ -45,3 +45,8 @@ print("---Sort the number----")
 number = [1, 20, 10, 5]
 number.sort()
 print("sorted number:",(number))
+
+# concatinate
+print("=== concatinate ===")
+list = ["a", "b", "c", "d", "f"]
+print("concatinate:",list[0]+"--"+(list[1]+"--"+(list[2])))  # showing 0index+1index
