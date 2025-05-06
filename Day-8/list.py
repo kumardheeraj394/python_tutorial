@@ -40,3 +40,8 @@ list = ["a", "b", "c", "d", "f"]
 list.remove("b")
 print("List after remove:", list)
 print("Length after remove:", len(list))
+
+print("---Sort the number----")
+number = [1, 20, 10, 5]
+number.sort()
+print("sorted number:",(number))
