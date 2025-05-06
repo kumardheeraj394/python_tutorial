@@ -50,3 +50,16 @@ print("sorted number:",(number))
 print("=== concatinate ===")
 list = ["a", "b", "c", "d", "f"]
 print("concatinate:",list[0]+"--"+(list[1]+"--"+(list[2])))  # showing 0index+1index
+
+# Index integer, string , float
+print("=== List store any kind of data type integer, string , float ===")
+list = ["a", "b", "c", "d", "f", 1, 2, 6.7]
+print("all list printed:",list)
+print("Element at index 7:", list[7])  # Accessing element by index
+print()
+
+print("=== [2:3] ===")
+list = ["a", "b", "c", "d", "f", 1, 2, 6.7]
+print("all list printed:",list)
+print(list[2:3])  #This uses slicing: list[start:end] → returns a sublist starting from index 2 up to but not including index 3.
+print()
