@@ -1,7 +1,7 @@
 import os  # Importing the OS module to interact with the file system
 
 # Prompt the user to input folder names separated by spaces, then split the input into a list
-folders_path = input("Please provide list of folder names with spaces in between: ").split()
+folders = input("Please provide list of folder names with spaces in between: ").split()
 
 # Display the list of folder names entered by the user
 print("Folders entered:", folders)
